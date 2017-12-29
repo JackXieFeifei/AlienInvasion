@@ -15,6 +15,7 @@ class Settings():
 
         # 飞船的设置  (值为0.5时不能够向右和向下移动 ？？？)
         self.ship_speed_factor = 1.5
+        self.ship_limit = 3
 
         # 子弹设置
         self.bullet_speed_factor = 2
